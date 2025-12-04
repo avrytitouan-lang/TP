@@ -1,0 +1,19 @@
+[project]
+name = "tp"
+version = "0.1.0"
+description = "github actions"
+authors = [
+    {name = "Titouan Avry",email = "avrytitouan@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "yes (>=0.0.1,<0.0.2)",
+    "fastapi[standard] (>=0.123.8,<0.124.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
